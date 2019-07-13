@@ -1112,4 +1112,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     #mobile-nav-toggle {
         display: inline;
     }
+    #header.header-scrolled {
+        padding: 25px 0;
+
+    }
 }

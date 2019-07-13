@@ -1113,7 +1113,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: inline;
     }
     #header.header-scrolled {
-        padding: 25px 0;
+        padding: 25px 0 !important;
 
     }
 }

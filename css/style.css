@@ -1132,9 +1132,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
     #intro .carousel-item {
         width: 100%;
-        height: 65vh;
+        height: 40vh;
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    #intro {
+        display: table;
+        width: 100%;
+        height: 40vh;
     }
 }

@@ -697,6 +697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #product .portfolio-item figure img {
     height: 235px;
+    object-fit: contain;
 }
 
 #product .card-shadow {
@@ -1132,14 +1133,37 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
     #intro .carousel-item {
         width: 100%;
-        height: 65vh;
-        background-size: 100% 100%;
-        background-position: center;
+        height: 40vh;
+        background-size: contain;
         background-repeat: no-repeat;
+        background-color: #00BEF1;
     }
     #intro {
         display: table;
         width: 100%;
-        height: 65vh;
+        height: 40vh;
     }
+}
+/*Ipad pro*/
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+    #intro .carousel-item {
+        width: 100%;
+        height: 40vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #00BEF1;
+    }
+    #intro {
+        display: table;
+        width: 100%;
+        height: 40vh;
+    }
+    .product-name {
+        font-size: 12px !important;
+    }
+
 }
